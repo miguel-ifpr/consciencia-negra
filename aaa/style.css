@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('consciencia.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+h1 {
+    text-align: center;
+    color: #0066cc;
+}
+
+.texto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.texto p {
+    text-align: center;
+    color: white;
+}
+
+.texto .esquerda {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.texto .direita {
+    grid-column: 2;
+    grid-row: 1;
+}
